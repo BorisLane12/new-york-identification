@@ -1,0 +1,17 @@
+{
+  "name": "new-york-identification",
+  "version": "0.1.0",
+  "description": "Computes the New York State Identification and Intelligence System phonetic code for matching person names.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {}
+}
