@@ -1,6 +1,6 @@
 {
   "name": "new-york-identification",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Computes the New York State Identification and Intelligence System phonetic code for matching person names.",
   "type": "module",
   "main": "src/index.js",
