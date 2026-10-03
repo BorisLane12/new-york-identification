@@ -18,3 +18,10 @@ NYSIIS is a phonetic matching algorithm designed for surnames in record linkage.
 ## Edge cases
 
 Non-letter characters are ignored. Empty input produces six spaces. Trailing S and AY are dropped unless the code would become empty. Names longer than six characters are truncated to the first six code characters.
+
+## Performance
+
+The window keeps a bounded buffer, so `push` is constant time and memory does not
+grow with the length of the stream. `peak` and `trough` are linear in the window
+size, which is the trade that keeps `push` cheap.
+
